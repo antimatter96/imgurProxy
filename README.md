@@ -51,9 +51,10 @@ Start server using
 Download a direct image
 
 ```
-/getDirect/filename.extension`
+/getDirect/filename.extension
 ```
-eg. ```
+eg. 
+```
 /getDirect/zBL0MZt.jpg
 ```
 
@@ -63,7 +64,8 @@ View the image
 /ShowDirect/filename
 ```
 
-eg. ```
+eg. 
+```
 /showDirect/zBL0MZt
 ```
 
@@ -74,7 +76,8 @@ Download an album
 /getAlbum/albumname
 ```
 
-eg. ```
+eg. 
+```
 /getDirect/AVLiP
 ```
 
@@ -84,7 +87,8 @@ View the album
 /showAlbum/albumname
 ```
 
-eg. ```
+eg. 
+```
 /showDirect/AVLiP
 ```
 
