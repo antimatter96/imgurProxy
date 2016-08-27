@@ -2,7 +2,7 @@
 
 A proxy server built using Nodejs and Python for bypassing firewall at places where Imgur is banned. 
 
-**Don't run this on your computer ( from which you are trying to access Imgur ). Instead run on a remote server **
+** Don't run this on your computer ( from which you are trying to access Imgur ). Instead run on a remote server **
 
 Use AWS, Nitrous.io, c9.io, Digital Ocean or any other of your choice. Just make sure it can access imgur.
 
@@ -50,32 +50,47 @@ Start server using
 
 Download a direct image
 
-`/getDirect/filename.extension`
-
-eg. `/getDirect/zBL0MZt.jpg`
+```
+/getDirect/filename.extension`
+```
+eg. ```
+/getDirect/zBL0MZt.jpg
+```
 
 View the image
 
-`/ShowDirect/filename`
+```
+/ShowDirect/filename
+```
 
-eg. `/showDirect/zBL0MZt`
+eg. ```
+/showDirect/zBL0MZt
+```
 
 
 Download an album
 
-`/getAlbum/albumname`
+```
+/getAlbum/albumname
+```
 
-eg. `/getDirect/AVLiP`
+eg. ```
+/getDirect/AVLiP
+```
 
 View the album
 
-`/showAlbum/albumname`
+```
+/showAlbum/albumname
+```
 
-eg. `/showDirect/AVLiP`
+eg. ```
+/showDirect/AVLiP
+```
 
 ### Limitations
-* Album can get few images as Imgur gets the link of other images using Ajax.
-* Have to download all images.
+* getAlbum can get few images as Imgur only shows few images and gets the link of other images using Ajax.
+* Have to download all images. :(
 
 ### Way forward
-* 
+* Use the actual Imgur API
